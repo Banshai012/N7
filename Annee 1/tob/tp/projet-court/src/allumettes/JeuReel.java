@@ -1,12 +1,10 @@
 package allumettes;
 
-public class JeuProc implements Jeu {
+public class JeuReel implements Jeu {
     private int nbAll;
-    private Jeu jeu;
 
-    public JeuProc(Jeu jeu) {
-        this.nbAll = jeu.getNombreAllumettes();
-        this.jeu = jeu;
+    public JeuReel(int nbAll) {
+        this.nbAll = nbAll;
     }
 
     @Override
@@ -20,14 +18,12 @@ public class JeuProc implements Jeu {
             throw new CoupInvalideException(nbPrises, "(< 1)");
         }
         if (nbPrises > this.getNombreAllumettes()) {
-            throw new CoupInvalideException(nbPrises, "(> " + this.getNombreAllumettes() + ")");
+            throw new CoupInvalideException(nbPrises,
+            "(> " + this.getNombreAllumettes() + ")");
         }
-        if (nbPrises > 3) {
-            throw new CoupInvalideException(nbPrises, "(> 3)");
+        if (nbPrises > PRISE_MAX) {
+            throw new CoupInvalideException(nbPrises, "(> " + PRISE_MAX + ")");
         }
         this.nbAll = this.getNombreAllumettes() - nbPrises;
     }
-    
-    
-
 }

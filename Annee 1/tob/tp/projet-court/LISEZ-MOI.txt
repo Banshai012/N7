@@ -1,7 +1,7 @@
 --------------------------------------------------------------------------------
-Nom       : 
-Prénom    : 
-Groupe TP : 
+Nom       : Krief
+Prénom    : Benjamin
+Groupe TP : H
 --------------------------------------------------------------------------------
 
 Consigne : Dans ce fichier, les « ... » indiquent les endroits à compléter.
@@ -16,8 +16,8 @@ prises en compte dans la notation du projet.
 Il faut remplacer les ... par des nombres.
 
 
-* Temps passé sur la V1 : ... heures ... minutes
-* Temps passé sur la V2 : ... heures ... minutes
+* Temps passé sur la V1 : 2 heures 0 minutes
+* Temps passé sur la V2 : 5 heures 0 minutes
 
 Pour la V2 on ne tiendra pas compte du temps passé sur la V1.
 
@@ -29,8 +29,7 @@ Pourquoi l'exception OperationInterditeException ne peut pas être définie
 comme vérifiée par le compilateur ?
 --------------------------------------------------------------------------------
 
-...
-
+Cela vient d'une exception qui n'a pas de sens pour le compilateur. En effet, le compilateur s'en fout que le joueur triche ou pas. Par contre, si une variable est un int et qu'il reçoit un String, alors il est pas content.
 
 --------------------------------------------------------------------------------
 Expliquer ce qu'il faut faire pour ajouter un nouveau niveau de jeu, par
@@ -38,16 +37,14 @@ exemple la stratégie lente (C13).  Pour plus de précision, on numérotera
 les étapes à faire.
 --------------------------------------------------------------------------------
 
-...
-
+Il faut créer un nouveau fichier à l'aide de l'interface Strategie. Ce fichier doit être de la même forme que les autres, c-à-d, un constructeur, un getStrategie et un getPriseS.
 
 --------------------------------------------------------------------------------
 Expliquer ce qui permet, dans votre conception, de changer dynamiquement
 (en cours d'exécution du programme) la stratégie d'un joueur (C14).
 --------------------------------------------------------------------------------
 
-...
-
+Dans Arbitre.java, j'aurai mis une question à la fin du tour sur la volonté de changer de stratégie.
 
 =====[ Explications ]===========================================================
 

@@ -4,7 +4,7 @@ package allumettes;
  * @author	Xavier Crégut
  * @version	$Revision: 1.3 $
  */
-public class OperationInterditeException extends Exception {
+public class OperationInterditeException extends RuntimeException {
 
 	/** Initialiser CoupInvalideException à partir du coup joué
 	 * et du problème identifié.  Par exemple, on peut avoir coup

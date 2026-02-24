@@ -7,77 +7,40 @@ package allumettes;
  */
 public class Jouer {
 
+	public static final int NBALL = 13;
+
 	/** Lancer une partie. En argument sont donnés les deux joueurs sous
 	 * la forme nom@stratégie.
 	 * @param args la description des deux joueurs
 	 */
-	public static void main(String[] args) throws CoupInvalideException {
+	public static void main(String[] args) throws CoupInvalideException,
+	OperationInterditeException {
 		try {
-				
+
 			verifierNombreArguments(args);
 
 			String[] joueur1 = args[args.length - 2].split("@");
 			String[] joueur2 = args[args.length - 1].split("@");
-	
-			Strategie strat1;
-			Strategie strat2;
-	
-			switch (joueur1[1]) {
-				case "naif":
-					strat1 = new Naif();
-					break;
-				case "rapide":
-					strat1 = new Rapide();
-					break;
-				case "expert":
-					strat1 = new Expert();
-					break;
-				case "humain":
-					strat1 = new Humain();
-					break;
-				case "tricheur":
-					strat1 = new Tricheur();
-					break;
-				default:
-					throw new ConfigurationException("Stratégie inconnue : " + joueur1[1]);
-			}
-	
-			switch (joueur2[1]) {
-				case "naif":
-					strat2 = new Naif();
-					break;
-				case "rapide":
-					strat2 = new Rapide();
-					break;
-				case "expert":
-					strat2 = new Expert();
-					break;
-				case "humain":
-					strat2 = new Humain();
-					break;
-				case "tricheur":
-					strat2 = new Tricheur();
-					break;
-				default:
-					throw new ConfigurationException("Stratégie inconnue : " + joueur2[1]);
-			}
-	
-			Joueur j1 = new Joueur(joueur1[0], strat1);
-			Joueur j2 = new Joueur(joueur2[0], strat2);
-			
-			Jeu Jeu = new JeuAll(13);
+
+			Joueur j1 = new Joueur(joueur1[0], cut(joueur1[1]));
+			Joueur j2 = new Joueur(joueur2[0], cut(joueur2[1]));
+
+			Jeu jeu = new JeuReel(NBALL);
 
 			if (args[0].equals("-confiant")) {
-				Jeu jeu = new JeuAll(13);
-				Arbitre arbitre = new Arbitre(j1, j2, jeu);
+				Arbitre arbitre = new Arbitre(j1, j2, jeu, false);
 				arbitre.arbitrer(jeu);
 			} else {
-				Jeu jeu = new JeuProc(Jeu);
-				Arbitre arbitre = new Arbitre(j1, j2, jeu);
+				Arbitre arbitre = new Arbitre(j1, j2, jeu, true);
 				arbitre.arbitrer(jeu);
 			}
 
 		} catch (ConfigurationException e) {
+			System.out.println();
+			System.out.println("Erreur : " + e.getMessage());
+			afficherUsage();
+			System.exit(1);
+		} catch (java.lang.ArrayIndexOutOfBoundsException e) {
 			System.out.println();
 			System.out.println("Erreur : " + e.getMessage());
 			afficherUsage();
@@ -109,6 +72,31 @@ public class Jouer {
 					   + "Ordinateur@naif"
 				+ "\n"
 				);
+	}
+
+	private static Strategie cut(String joueur) {
+		Strategie strat;
+		switch (joueur) {
+			case "naif":
+				strat = new Naif();
+				break;
+			case "rapide":
+				strat = new Rapide();
+				break;
+			case "expert":
+				strat = new Expert();
+				break;
+			case "humain":
+				strat = new Humain();
+				break;
+			case "tricheur":
+				strat = new Tricheur();
+				break;
+			default:
+				throw new ConfigurationException("Stratégie inconnue : "
+				+ joueur);
+		}
+		return strat;
 	}
 
 }
