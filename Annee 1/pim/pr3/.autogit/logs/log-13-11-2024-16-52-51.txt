@@ -1,0 +1,17 @@
+-------------------- Auto-Git Log --------------------
+Fri Dec 13 2024 16:52:51 GMT+0100 (heure normale d’Europe centrale)
+------------------------------------------------------
+
+Modified files:
+* arbre.adb
+* arbre.ads
+
+
+Created files:
+
+
+Deleted files:
+* -b
+
+
+Renamed files:

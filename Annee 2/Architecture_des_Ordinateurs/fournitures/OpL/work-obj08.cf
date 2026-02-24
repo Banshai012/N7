@@ -1,0 +1,13 @@
+v 4
+file . "TestOpl.vhd" "048fb0666c4c256d7782b2adce9808327b9b2a7e" "20251114082710.275":
+  entity testopl at 4( 161) + 0 on 17;
+  architecture behavior of testopl at 10( 239) + 0 on 18;
+file . "MasterOpl.vhd" "b305813a2e79bbc6e519bf34dde7b0bc77589c1f" "20251114082710.201":
+  entity masteropl at 1( 0) + 0 on 13;
+  architecture behavior of masteropl at 20( 579) + 0 on 14;
+file . "../ER_1OCTET/er_1octet.vhd" "b201785ee1c7840792ae32e841d2f6a0702e54d5" "20251114082710.168":
+  entity er_1octet at 1( 0) + 0 on 11;
+  architecture behavioral_3 of er_1octet at 16( 398) + 0 on 12;
+file . "SlaveOpl.vhd" "e807d31661facaaa562d0d7a1ad1ba2c3e35c12b" "20251114082710.237":
+  entity slaveopl at 1( 0) + 0 on 15;
+  architecture behavioral of slaveopl at 15( 280) + 0 on 16;

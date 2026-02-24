@@ -1,0 +1,17 @@
+-------------------- Auto-Git Log --------------------
+Sat Jan 11 2025 16:57:46 GMT+0100 (heure normale d’Europe centrale)
+------------------------------------------------------
+
+Modified files:
+* compresser.adb
+* lcass.adb
+* text.txt
+
+
+Created files:
+
+
+Deleted files:
+
+
+Renamed files:

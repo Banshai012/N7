@@ -1,0 +1,16 @@
+-------------------- Auto-Git Log --------------------
+Thu Jan 23 2025 11:44:46 GMT+0100 (heure normale d’Europe centrale)
+------------------------------------------------------
+
+Modified files:
+* .DS_Store
+* mini-projet/src/CercleTest.java
+
+
+Created files:
+
+
+Deleted files:
+
+
+Renamed files:

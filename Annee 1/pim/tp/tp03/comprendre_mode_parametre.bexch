@@ -1,0 +1,19 @@
+[GENERATED OBJECT FILE]
+b__comprendre_mode_parametre.o
+[PROJECT FILES]
+/home/bkf0499/pim/tp/tp03/tp03.gpr
+20240926092954 2b0156f1c736b32e88ba24d164867e2c
+[BOUND OBJECT FILES]
+/home/bkf0499/pim/tp/tp03/comprendre_mode_parametre.o
+[GENERATED SOURCE FILES]
+b__comprendre_mode_parametre.ads
+b__comprendre_mode_parametre.adb
+b__comprendre_mode_parametre.ali
+[RESULTING OPTIONS]
+-L/home/bkf0499/pim/tp/tp03/
+-L/home/bkf0499/pim/tp/tp03/
+-L/mnt/n7fs/ens/tp_cregut/GNAT/2021/lib/gcc/x86_64-pc-linux-gnu/10.3.1/adalib/
+-static
+-static-libgcc
+/mnt/n7fs/ens/tp_cregut/GNAT/2021/lib/gcc/x86_64-pc-linux-gnu/10.3.1/adalib/libgnat.a
+-ldl

@@ -1,0 +1,7 @@
+comprendre_mode_parametre.adb:25:12: warning: variable "B" is never read and never assigned [-gnatwv]
+comprendre_mode_parametre.adb:25:15: warning: variable "R" is assigned but never read [-gnatwm]
+comprendre_mode_parametre.adb:36:24: warning: "A" modified by call, but value might not be referenced [-gnatwm]
+comprendre_mode_parametre.adb:40:15: warning: procedure "Comprendre_Les_Contrainte_Dans_Le_Corps" is not referenced [-gnatwu]
+comprendre_mode_parametre.adb:48:09: warning: useless assignment to "L", value overwritten at line 53 [-gnatwm]
+comprendre_mode_parametre.adb:58:09: warning: possibly useless assignment to "L", value might not be referenced [-gnatwm]
+comprendre_mode_parametre.adb:58:14: warning: "C2" may be referenced before it has a value [enabled by default]

@@ -1,0 +1,16 @@
+# dune utop
+# OCAMLPARAM: unset
+# Shared cache: enabled-except-user-rules
+# Shared cache location: /Users/benjaminkrief/.cache/dune/db
+# Workspace root: /Users/benjaminkrief/Downloads/BE-24-25/sourceEtu
+# Auto-detected concurrency: 8
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Dev
+#  ; merlin = true
+#  ; fdo_target_exe = None
+#  ; build_dir = In_build_dir "default"
+#  ; instrument_with = []
+#  }
+$ /Users/benjaminkrief/.opam/5.1.1/bin/ocamlc.opt -config > /var/folders/lk/l_0rhmm97s96y2hp21k8sjtm0000gn/T/dune_1786f2_output

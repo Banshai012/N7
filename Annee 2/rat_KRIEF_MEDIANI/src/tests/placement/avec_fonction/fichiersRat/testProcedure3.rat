@@ -1,0 +1,8 @@
+void printInfo (int id, rat r) {
+  print id;
+  print r;
+}
+
+main {
+  printInfo(1, [3/4]);
+}

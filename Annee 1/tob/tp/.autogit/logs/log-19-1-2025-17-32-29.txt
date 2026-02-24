@@ -1,0 +1,15 @@
+-------------------- Auto-Git Log --------------------
+Wed Feb 19 2025 17:32:29 GMT+0100 (heure normale d’Europe centrale)
+------------------------------------------------------
+
+Modified files:
+* projet-court/src/allumettes/Arbitre.java
+
+
+Created files:
+
+
+Deleted files:
+
+
+Renamed files:

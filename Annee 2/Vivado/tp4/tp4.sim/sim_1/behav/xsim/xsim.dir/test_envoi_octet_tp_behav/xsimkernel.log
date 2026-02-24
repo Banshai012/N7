@@ -1,0 +1,7 @@
+Running: xsim.dir/test_envoi_octet_tp_behav/xsimk -simmode gui -wdb test_envoi_octet_tp_behav.wdb -simrunnum 0 -socket 43159
+Design successfully loaded
+Design Loading Memory Usage: 33044 KB (Peak: 33744 KB)
+Design Loading CPU Usage: 60 ms
+Simulation completed
+Simulation Memory Usage: 114780 KB (Peak: 172312 KB)
+Simulation CPU Usage: 70 ms

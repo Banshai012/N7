@@ -1,0 +1,10 @@
+rat doubleRat (ref rat r) {
+  r = (r + r);
+  return r;
+}
+
+main {
+  rat x = [1/2];
+  rat r = doubleRat(ref x);
+  print x;
+}

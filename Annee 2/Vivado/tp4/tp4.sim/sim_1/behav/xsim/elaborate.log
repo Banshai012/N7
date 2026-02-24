@@ -1,0 +1,15 @@
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: /mnt/n7fs/applications/2025/vivado-2019/Vivado/2019.2/bin/unwrapped/lnx64.o/xelab -wto b58576ce73774127b1bd5fd8a50ce356 --incr --debug typical --relax --mt 8 -L xil_defaultlib -L secureip --snapshot test_envoi_octet_tp_behav xil_defaultlib.test_envoi_octet_tp -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling architecture behavioral of entity xil_defaultlib.envoi_octet_tp [envoi_octet_tp_default]
+Compiling architecture behavior of entity xil_defaultlib.test_envoi_octet_tp
+Built simulation snapshot test_envoi_octet_tp_behav

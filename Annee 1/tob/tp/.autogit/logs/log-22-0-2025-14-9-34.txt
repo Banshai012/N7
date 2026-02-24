@@ -1,0 +1,15 @@
+-------------------- Auto-Git Log --------------------
+Wed Jan 22 2025 14:09:34 GMT+0100 (heure normale d’Europe centrale)
+------------------------------------------------------
+
+Modified files:
+* TP01/src/ExempleSchema1.java
+
+
+Created files:
+
+
+Deleted files:
+
+
+Renamed files:

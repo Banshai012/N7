@@ -1,0 +1,16 @@
+-------------------- Auto-Git Log --------------------
+Mon Feb 17 2025 11:49:15 GMT+0100 (heure normale d’Europe centrale)
+------------------------------------------------------
+
+Modified files:
+* TP08/src/Cellule.java
+* TP08/src/EnsembleChaine.java
+
+
+Created files:
+
+
+Deleted files:
+
+
+Renamed files:

@@ -1,0 +1,50 @@
+# dune utop
+# OCAMLPARAM: unset
+# Shared cache: enabled-except-user-rules
+# Shared cache location: /Users/benjaminkrief/.cache/dune/db
+# Workspace root: /Users/benjaminkrief/Desktop/sourceEtu
+# Auto-detected concurrency: 8
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Dev
+#  ; merlin = true
+#  ; fdo_target_exe = None
+#  ; build_dir = In_build_dir "default"
+#  ; instrument_with = []
+#  }
+$ /Users/benjaminkrief/.opam/5.1.1/bin/ocamlc.opt -config > /var/folders/lk/l_0rhmm97s96y2hp21k8sjtm0000gn/T/dune_952b86_output
+$ (cd _build/.sandbox/71b8e1f60c6f186820427ac9d3143b41/default && .ppx/efcc4bee201c25260b4d99c3f6cc9332/ppx.exe --cookie 'inline_tests="enabled"' --cookie 'library-name="tp3"' -o tp3.pp.ml --impl tp3.ml -corrected-suffix .ppx-corrected -diff-cmd - -dump-ast)
+$ (cd _build/default && /Users/benjaminkrief/.opam/5.1.1/bin/ocamlc.opt -w @1..3@5..28@31..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -warn-error -A -g -bin-annot -I .tp3.objs/byte -I /Users/benjaminkrief/.opam/5.1.1/lib/base -I /Users/benjaminkrief/.opam/5.1.1/lib/base/base_internalhash_types -I /Users/benjaminkrief/.opam/5.1.1/lib/base/shadow_stdlib -I /Users/benjaminkrief/.opam/5.1.1/lib/jane-street-headers -I /Users/benjaminkrief/.opam/5.1.1/lib/ocaml_intrinsics_kernel -I /Users/benjaminkrief/.opam/5.1.1/lib/ppx_compare/runtime-lib -I /Users/benjaminkrief/.opam/5.1.1/lib/ppx_enumerate/runtime-lib -I /Users/benjaminkrief/.opam/5.1.1/lib/ppx_hash/runtime-lib -I /Users/benjaminkrief/.opam/5.1.1/lib/ppx_inline_test/config -I /Users/benjaminkrief/.opam/5.1.1/lib/ppx_inline_test/runtime-lib -I /Users/benjaminkrief/.opam/5.1.1/lib/ppx_sexp_conv/runtime-lib -I /Users/benjaminkrief/.opam/5.1.1/lib/sexplib0 -I /Users/benjaminkrief/.opam/5.1.1/lib/time_now -no-alias-deps -opaque -o .tp3.objs/byte/tp3.cmo -c -impl tp3.pp.ml)
+> File "tp3.ml", line 96, characters 8-17:
+> 96 | let rec insertion e l = failwith "TO DO"
+>              ^^^^^^^^^
+> Warning 39 [unused-rec-flag]: unused rec flag.
+>
+> File "tp3.ml", line 118, characters 8-20:
+> 118 | let rec permutations l = failwith "TO DO"
+>               ^^^^^^^^^^^^
+> Warning 39 [unused-rec-flag]: unused rec flag.
+>
+> File "tp3.ml", line 46, characters 6-7:
+> 46 |     | n -> 
+>            ^
+> Warning 27 [unused-var-strict]: unused variable n.
+>
+> File "tp3.ml", line 96, characters 18-19:
+> 96 | let rec insertion e l = failwith "TO DO"
+>                        ^
+> Warning 27 [unused-var-strict]: unused variable e.
+>
+> File "tp3.ml", line 96, characters 20-21:
+> 96 | let rec insertion e l = failwith "TO DO"
+>                          ^
+> Warning 27 [unused-var-strict]: unused variable l.
+>
+> File "tp3.ml", line 118, characters 21-22:
+> 118 | let rec permutations l = failwith "TO DO"
+>                            ^
+> Warning 27 [unused-var-strict]: unused variable l.
+$ (cd _build/default && /Users/benjaminkrief/.opam/5.1.1/bin/ocamlc.opt -w @1..3@5..28@31..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -warn-error -A -g -a -o tp3.cma .tp3.objs/byte/tp3.cmo)
+$ (cd _build/default && /Users/benjaminkrief/.opam/5.1.1/bin/ocamlc.opt -w @1..3@5..28@31..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -24 -g -bin-annot -I .utop/.utop.eobjs/byte -I /Users/benjaminkrief/.opam/5.1.1/lib/base -I /Users/benjaminkrief/.opam/5.1.1/lib/base/base_internalhash_types -I /Users/benjaminkrief/.opam/5.1.1/lib/base/shadow_stdlib -I /Users/benjaminkrief/.opam/5.1.1/lib/bytes -I /Users/benjaminkrief/.opam/5.1.1/lib/findlib -I /Users/benjaminkrief/.opam/5.1.1/lib/jane-street-headers -I /Users/benjaminkrief/.opam/5.1.1/lib/lambda-term -I /Users/benjaminkrief/.opam/5.1.1/lib/logs -I /Users/benjaminkrief/.opam/5.1.1/lib/logs/lwt -I /Users/benjaminkrief/.opam/5.1.1/lib/lwt -I /Users/benjaminkrief/.opam/5.1.1/lib/lwt/unix -I /Users/benjaminkrief/.opam/5.1.1/lib/lwt_react -I /Users/benjaminkrief/.opam/5.1.1/lib/mew -I /Users/benjaminkrief/.opam/5.1.1/lib/mew_vi -I /Users/benjaminkrief/.opam/5.1.1/lib/ocaml/compiler-libs -I /Users/benjaminkrief/.opam/5.1.1/lib/ocaml/threads -I /Users/benjaminkrief/.opam/5.1.1/lib/ocaml/unix -I /Users/benjaminkrief/.opam/5.1.1/lib/ocaml_intrinsics_kernel -I /Users/benjaminkrief/.opam/5.1.1/lib/ocplib-endian -I /Users/benjaminkrief/.opam/5.1.1/lib/ocplib-endian/bigstring -I /Users/benjaminkrief/.opam/5.1.1/lib/ppx_compare/runtime-lib -I /Users/benjaminkrief/.opam/5.1.1/lib/ppx_enumerate/runtime-lib -I /Users/benjaminkrief/.opam/5.1.1/lib/ppx_hash/runtime-lib -I /Users/benjaminkrief/.opam/5.1.1/lib/ppx_inline_test/config -I /Users/benjaminkrief/.opam/5.1.1/lib/ppx_inline_test/runtime-lib -I /Users/benjaminkrief/.opam/5.1.1/lib/ppx_sexp_conv/runtime-lib -I /Users/benjaminkrief/.opam/5.1.1/lib/react -I /Users/benjaminkrief/.opam/5.1.1/lib/result -I /Users/benjaminkrief/.opam/5.1.1/lib/sexplib0 -I /Users/benjaminkrief/.opam/5.1.1/lib/time_now -I /Users/benjaminkrief/.opam/5.1.1/lib/trie -I /Users/benjaminkrief/.opam/5.1.1/lib/uchar -I /Users/benjaminkrief/.opam/5.1.1/lib/utop -I /Users/benjaminkrief/.opam/5.1.1/lib/uucp -I /Users/benjaminkrief/.opam/5.1.1/lib/uuseg -I /Users/benjaminkrief/.opam/5.1.1/lib/uutf -I /Users/benjaminkrief/.opam/5.1.1/lib/xdg -I /Users/benjaminkrief/.opam/5.1.1/lib/zed -I .tp3.objs/byte -no-alias-deps -o .utop/.utop.eobjs/byte/dune__exe__Utop.cmo -c -impl .utop/utop.ml-gen)
+$ (cd _build/default && /Users/benjaminkrief/.opam/5.1.1/bin/ocamlc.opt -w @1..3@5..28@31..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -24 -g -o .utop/utop.bc /Users/benjaminkrief/.opam/5.1.1/lib/ocaml/compiler-libs/ocamlcommon.cma /Users/benjaminkrief/.opam/5.1.1/lib/ocaml/compiler-libs/ocamlbytecomp.cma /Users/benjaminkrief/.opam/5.1.1/lib/ocaml/compiler-libs/ocamltoplevel.cma /Users/benjaminkrief/.opam/5.1.1/lib/findlib/findlib.cma /Users/benjaminkrief/.opam/5.1.1/lib/findlib/findlib_top.cma /Users/benjaminkrief/.opam/5.1.1/lib/logs/logs.cma /Users/benjaminkrief/.opam/5.1.1/lib/lwt/lwt.cma /Users/benjaminkrief/.opam/5.1.1/lib/logs/lwt/logs_lwt.cma /Users/benjaminkrief/.opam/5.1.1/lib/ocplib-endian/ocplib_endian.cma /Users/benjaminkrief/.opam/5.1.1/lib/ocplib-endian/bigstring/ocplib_endian_bigstring.cma /Users/benjaminkrief/.opam/5.1.1/lib/ocaml/unix/unix.cma /Users/benjaminkrief/.opam/5.1.1/lib/ocaml/threads/threads.cma /Users/benjaminkrief/.opam/5.1.1/lib/lwt/unix/lwt_unix.cma -I /Users/benjaminkrief/.opam/5.1.1/lib/lwt/../stublibs /Users/benjaminkrief/.opam/5.1.1/lib/react/react.cma /Users/benjaminkrief/.opam/5.1.1/lib/lwt_react/lwt_react.cma /Users/benjaminkrief/.opam/5.1.1/lib/result/result.cma /Users/benjaminkrief/.opam/5.1.1/lib/uutf/uutf.cma /Users/benjaminkrief/.opam/5.1.1/lib/uucp/uucp.cma /Users/benjaminkrief/.opam/5.1.1/lib/uuseg/uuseg.cma /Users/benjaminkrief/.opam/5.1.1/lib/zed/zed.cma /Users/benjaminkrief/.opam/5.1.1/lib/trie/trie.cma /Users/benjaminkrief/.opam/5.1.1/lib/mew/mew.cma /Users/benjaminkrief/.opam/5.1.1/lib/mew_vi/mew_vi.cma /Users/benjaminkrief/.opam/5.1.1/lib/lambda-term/lambda_term.cma -I /Users/benjaminkrief/.opam/5.1.1/lib/lambda-term/../stublibs /Users/benjaminkrief/.opam/5.1.1/lib/xdg/xdg.cma -I /Users/benjaminkrief/.opam/5.1.1/lib/xdg/../stublibs /Users/benjaminkrief/.opam/5.1.1/lib/utop/uTop.cma /Users/benjaminkrief/.opam/5.1.1/lib/ppx_inline_test/config/inline_test_config.cma /Users/benjaminkrief/.opam/5.1.1/lib/base/base_internalhash_types/base_internalhash_types.cma -I /Users/benjaminkrief/.opam/5.1.1/lib/base/../stublibs /Users/benjaminkrief/.opam/5.1.1/lib/sexplib0/sexplib0.cma /Users/benjaminkrief/.opam/5.1.1/lib/base/shadow_stdlib/shadow_stdlib.cma /Users/benjaminkrief/.opam/5.1.1/lib/ocaml_intrinsics_kernel/ocaml_intrinsics_kernel.cma -I /Users/benjaminkrief/.opam/5.1.1/lib/ocaml_intrinsics_kernel/../stublibs /Users/benjaminkrief/.opam/5.1.1/lib/base/base.cma -I /Users/benjaminkrief/.opam/5.1.1/lib/base/../stublibs /Users/benjaminkrief/.opam/5.1.1/lib/jane-street-headers/jane_street_headers.cma /Users/benjaminkrief/.opam/5.1.1/lib/ppx_sexp_conv/runtime-lib/ppx_sexp_conv_lib.cma /Users/benjaminkrief/.opam/5.1.1/lib/ppx_compare/runtime-lib/ppx_compare_lib.cma /Users/benjaminkrief/.opam/5.1.1/lib/ppx_enumerate/runtime-lib/ppx_enumerate_lib.cma /Users/benjaminkrief/.opam/5.1.1/lib/ppx_hash/runtime-lib/ppx_hash_lib.cma /Users/benjaminkrief/.opam/5.1.1/lib/time_now/time_now.cma -I /Users/benjaminkrief/.opam/5.1.1/lib/time_now/../stublibs /Users/benjaminkrief/.opam/5.1.1/lib/ppx_inline_test/runtime-lib/ppx_inline_test_lib.cma tp3.cma .utop/.utop.eobjs/byte/dune__exe__Utop.cmo -linkall -warn-error -31)

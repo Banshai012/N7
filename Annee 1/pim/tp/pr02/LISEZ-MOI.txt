@@ -1,0 +1,81 @@
+% Compte-rendu minimal du mini-projet SDA : LCA et TH
+% Auteur : NOM Prénom
+% Groupe de TP : ...
+
+
+**Consigne :** Vous devez écrire vos réponse à la place des ... en laissant
+une ligne vide avant et deux après votre réponse.
+
+**Remarque :** Ce document utilise le langage Markdown. On peut en engendrer
+une version PDF en faisant par exemple :
+
+~~~
+pandoc --toc -N -o LISEZ-MOI.pdf LISEZ-MOI.txt
+~~~
+
+
+# Exercice 1
+
+## Question 1.4
+
+**Indiquer les inconvénients/avantages d'une implantation par listes chaînées
+d'une SDA.**
+Avantages : Mémoires dynamiques.
+Inconvénient : Si mal manipulé, alors possibilité de saturage de mémoire.
+...
+
+
+
+# Évaluation expérimentale.
+
+## Performance comparée de LCA et TH
+
+Indiquer ici les résultats obtenus.
+
+bkf0499@dragon:~/pim/tp/pr02$ time ./evaluer_alea_th 1000 1000000
+Borne  : 1000
+Taille : 1000000
+Min : 889
+Max : 1092
+
+real    0m0,072s
+user    0m0,072s
+sys     0m0,001s
+bkf0499@dragon:~/pim/tp/pr02$ time ./evaluer_alea_lca 1000 10
+00000
+Borne  : 1000
+Taille : 1000000
+Min : 909
+Max : 1128
+
+real    0m6,692s
+user    0m6,690s
+sys     0m0,000s
+
+## Qualité du générateur aléatoire
+
+Indiquer les conclusions quant à la qualité du générateur aléatoire.
+
+Le générateur aléatoire est plutôt bon.
+
+# Principales difficultés rencontrées
+
+Indiquer ici les principales difficultés rencontrées lors de la réalisation de
+ce projet et comment elles ont été surmontées ou contournéeS.
+
+La compréhension de comment réaliser l'exercice 2. A été résolu en demandant à mes camarades.
+
+# Informations complémentaires
+
+Indiquer ici les informations qui pourraient aider à la compréhension du
+travail réalisé.
+
+Cette partie peut être vide.
+
+
+# Bilan personnel
+
+Quel bilan personnel tirez-vous de ce mini-projet ?
+
+Il existe différente manière de créer et d'utiliser un même outil, avec certaines méthodes plus optimiser que d'autre.
+

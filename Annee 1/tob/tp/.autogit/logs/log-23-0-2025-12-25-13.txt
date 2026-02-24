@@ -1,0 +1,17 @@
+-------------------- Auto-Git Log --------------------
+Thu Jan 23 2025 12:25:13 GMT+0100 (heure normale d’Europe centrale)
+------------------------------------------------------
+
+Modified files:
+* TP04/src/ExempleSchema1.java
+* TP04/src/Point.java
+* TP04/src/Segment.java
+
+
+Created files:
+
+
+Deleted files:
+
+
+Renamed files:

@@ -1,0 +1,201 @@
+# dune runtest
+# OCAMLPARAM: unset
+# Shared cache: enabled-except-user-rules
+# Shared cache location: /home/bkf0499/.cache/dune/db
+# Workspace root: "/home/bkf0499/Annee 2/Programmation Fonctionnelle/TP2"
+# Auto-detected concurrency: 14
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Dev
+#  ; merlin = true
+#  ; fdo_target_exe = None
+#  ; build_dir = In_build_dir "default"
+#  ; instrument_with = []
+#  }
+$ /applications/opam-5.3.0/5.3.0/bin/ocamlc.opt -config > /tmp/dune_059c78_output
+$ (cd _build/default && .ppx/efcc4bee201c25260b4d99c3f6cc9332/ppx.exe --cookie 'inline_tests="enabled"' --cookie 'library-name="tp2"' -o tp2.pp.ml --impl tp2.ml -corrected-suffix .ppx-corrected -diff-cmd - -dump-ast)
+$ (cd _build/default && /applications/opam-5.3.0/5.3.0/bin/ocamldep.opt -modules -impl tp2.pp.ml) > _build/default/.tp2.objs/tp2.impl.d
+$ (cd _build/default && /applications/opam-5.3.0/5.3.0/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -warn-error -A -g -bin-annot -bin-annot-occurrences -I .tp2.objs/byte -I /applications/opam-5.3.0/5.3.0/lib/base -I /applications/opam-5.3.0/5.3.0/lib/base/base_internalhash_types -I /applications/opam-5.3.0/5.3.0/lib/base/shadow_stdlib -I /applications/opam-5.3.0/5.3.0/lib/jane-street-headers -I /applications/opam-5.3.0/5.3.0/lib/ocaml_intrinsics_kernel -I /applications/opam-5.3.0/5.3.0/lib/ppx_compare/runtime-lib -I /applications/opam-5.3.0/5.3.0/lib/ppx_enumerate/runtime-lib -I /applications/opam-5.3.0/5.3.0/lib/ppx_hash/runtime-lib -I /applications/opam-5.3.0/5.3.0/lib/ppx_inline_test/config -I /applications/opam-5.3.0/5.3.0/lib/ppx_inline_test/runtime-lib -I /applications/opam-5.3.0/5.3.0/lib/ppx_sexp_conv/runtime-lib -I /applications/opam-5.3.0/5.3.0/lib/sexplib0 -I /applications/opam-5.3.0/5.3.0/lib/time_now -no-alias-deps -opaque -open Tp2__ -o .tp2.objs/byte/tp2.cmo -c -impl tp2.pp.ml)
+> File "tp2.ml", line 55, characters 8-14:
+> 55 | let rec scinde l =  failwith "TO DO"
+>              ^^^^^^
+> Warning 39 [unused-rec-flag]: unused rec flag.
+>
+> File "tp2.ml", line 71, characters 8-16:
+> 71 | let rec fusionne ordre l1 l2 = failwith "TO DO"
+>              ^^^^^^^^
+> Warning 39 [unused-rec-flag]: unused rec flag.
+>
+> File "tp2.ml", line 92, characters 8-18:
+> 92 | let rec tri_fusion ordre l =failwith "TO DO"
+>              ^^^^^^^^^^
+> Warning 39 [unused-rec-flag]: unused rec flag.
+>
+> File "tp2.ml", line 55, characters 15-16:
+> 55 | let rec scinde l =  failwith "TO DO"
+>                     ^
+> Warning 27 [unused-var-strict]: unused variable l.
+>
+> File "tp2.ml", line 71, characters 17-22:
+> 71 | let rec fusionne ordre l1 l2 = failwith "TO DO"
+>                       ^^^^^
+> Warning 27 [unused-var-strict]: unused variable ordre.
+>
+> File "tp2.ml", line 71, characters 23-25:
+> 71 | let rec fusionne ordre l1 l2 = failwith "TO DO"
+>                             ^^
+> Warning 27 [unused-var-strict]: unused variable l1.
+>
+> File "tp2.ml", line 71, characters 26-28:
+> 71 | let rec fusionne ordre l1 l2 = failwith "TO DO"
+>                                ^^
+> Warning 27 [unused-var-strict]: unused variable l2.
+>
+> File "tp2.ml", line 92, characters 19-24:
+> 92 | let rec tri_fusion ordre l =failwith "TO DO"
+>                         ^^^^^
+> Warning 27 [unused-var-strict]: unused variable ordre.
+>
+> File "tp2.ml", line 92, characters 25-26:
+> 92 | let rec tri_fusion ordre l =failwith "TO DO"
+>                               ^
+> Warning 27 [unused-var-strict]: unused variable l.
+>
+> File "tp2.ml", line 102, characters 0-11:
+> 102 | open Lexing
+>       ^^^^^^^^^^^
+> Warning 33 [unused-open]: unused open Stdlib.Lexing.
+$ (cd _build/default && /applications/opam-5.3.0/5.3.0/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -warn-error -A -w -24 -g -g -bin-annot -bin-annot-occurrences -I .tp2.inline-tests/.t.eobjs/byte -I /applications/opam-5.3.0/5.3.0/lib/base -I /applications/opam-5.3.0/5.3.0/lib/base/base_internalhash_types -I /applications/opam-5.3.0/5.3.0/lib/base/shadow_stdlib -I /applications/opam-5.3.0/5.3.0/lib/jane-street-headers -I /applications/opam-5.3.0/5.3.0/lib/ocaml_intrinsics_kernel -I /applications/opam-5.3.0/5.3.0/lib/ppx_compare/runtime-lib -I /applications/opam-5.3.0/5.3.0/lib/ppx_enumerate/runtime-lib -I /applications/opam-5.3.0/5.3.0/lib/ppx_hash/runtime-lib -I /applications/opam-5.3.0/5.3.0/lib/ppx_inline_test/config -I /applications/opam-5.3.0/5.3.0/lib/ppx_inline_test/runner/lib -I /applications/opam-5.3.0/5.3.0/lib/ppx_inline_test/runtime-lib -I /applications/opam-5.3.0/5.3.0/lib/ppx_sexp_conv/runtime-lib -I /applications/opam-5.3.0/5.3.0/lib/sexplib0 -I /applications/opam-5.3.0/5.3.0/lib/time_now -I .tp2.objs/byte -no-alias-deps -o .tp2.inline-tests/.t.eobjs/byte/dune__exe__Main.cmo -c -impl .tp2.inline-tests/main.ml-gen)
+$ (cd _build/default && /applications/opam-5.3.0/5.3.0/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -warn-error -A -g -I .tp2.objs/byte -I .tp2.objs/native -I /applications/opam-5.3.0/5.3.0/lib/base -I /applications/opam-5.3.0/5.3.0/lib/base/base_internalhash_types -I /applications/opam-5.3.0/5.3.0/lib/base/shadow_stdlib -I /applications/opam-5.3.0/5.3.0/lib/jane-street-headers -I /applications/opam-5.3.0/5.3.0/lib/ocaml_intrinsics_kernel -I /applications/opam-5.3.0/5.3.0/lib/ppx_compare/runtime-lib -I /applications/opam-5.3.0/5.3.0/lib/ppx_enumerate/runtime-lib -I /applications/opam-5.3.0/5.3.0/lib/ppx_hash/runtime-lib -I /applications/opam-5.3.0/5.3.0/lib/ppx_inline_test/config -I /applications/opam-5.3.0/5.3.0/lib/ppx_inline_test/runtime-lib -I /applications/opam-5.3.0/5.3.0/lib/ppx_sexp_conv/runtime-lib -I /applications/opam-5.3.0/5.3.0/lib/sexplib0 -I /applications/opam-5.3.0/5.3.0/lib/time_now -cmi-file .tp2.objs/byte/tp2.cmi -no-alias-deps -opaque -open Tp2__ -o .tp2.objs/native/tp2.cmx -c -impl tp2.pp.ml)
+> File "tp2.ml", line 55, characters 8-14:
+> 55 | let rec scinde l =  failwith "TO DO"
+>              ^^^^^^
+> Warning 39 [unused-rec-flag]: unused rec flag.
+>
+> File "tp2.ml", line 71, characters 8-16:
+> 71 | let rec fusionne ordre l1 l2 = failwith "TO DO"
+>              ^^^^^^^^
+> Warning 39 [unused-rec-flag]: unused rec flag.
+>
+> File "tp2.ml", line 92, characters 8-18:
+> 92 | let rec tri_fusion ordre l =failwith "TO DO"
+>              ^^^^^^^^^^
+> Warning 39 [unused-rec-flag]: unused rec flag.
+>
+> File "tp2.ml", line 55, characters 15-16:
+> 55 | let rec scinde l =  failwith "TO DO"
+>                     ^
+> Warning 27 [unused-var-strict]: unused variable l.
+>
+> File "tp2.ml", line 71, characters 17-22:
+> 71 | let rec fusionne ordre l1 l2 = failwith "TO DO"
+>                       ^^^^^
+> Warning 27 [unused-var-strict]: unused variable ordre.
+>
+> File "tp2.ml", line 71, characters 23-25:
+> 71 | let rec fusionne ordre l1 l2 = failwith "TO DO"
+>                             ^^
+> Warning 27 [unused-var-strict]: unused variable l1.
+>
+> File "tp2.ml", line 71, characters 26-28:
+> 71 | let rec fusionne ordre l1 l2 = failwith "TO DO"
+>                                ^^
+> Warning 27 [unused-var-strict]: unused variable l2.
+>
+> File "tp2.ml", line 92, characters 19-24:
+> 92 | let rec tri_fusion ordre l =failwith "TO DO"
+>                         ^^^^^
+> Warning 27 [unused-var-strict]: unused variable ordre.
+>
+> File "tp2.ml", line 92, characters 25-26:
+> 92 | let rec tri_fusion ordre l =failwith "TO DO"
+>                               ^
+> Warning 27 [unused-var-strict]: unused variable l.
+>
+> File "tp2.ml", line 102, characters 0-11:
+> 102 | open Lexing
+>       ^^^^^^^^^^^
+> Warning 33 [unused-open]: unused open Stdlib.Lexing.
+$ (cd _build/default && /applications/opam-5.3.0/5.3.0/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -warn-error -A -w -24 -g -g -I .tp2.inline-tests/.t.eobjs/byte -I .tp2.inline-tests/.t.eobjs/native -I /applications/opam-5.3.0/5.3.0/lib/base -I /applications/opam-5.3.0/5.3.0/lib/base/base_internalhash_types -I /applications/opam-5.3.0/5.3.0/lib/base/shadow_stdlib -I /applications/opam-5.3.0/5.3.0/lib/jane-street-headers -I /applications/opam-5.3.0/5.3.0/lib/ocaml_intrinsics_kernel -I /applications/opam-5.3.0/5.3.0/lib/ppx_compare/runtime-lib -I /applications/opam-5.3.0/5.3.0/lib/ppx_enumerate/runtime-lib -I /applications/opam-5.3.0/5.3.0/lib/ppx_hash/runtime-lib -I /applications/opam-5.3.0/5.3.0/lib/ppx_inline_test/config -I /applications/opam-5.3.0/5.3.0/lib/ppx_inline_test/runner/lib -I /applications/opam-5.3.0/5.3.0/lib/ppx_inline_test/runtime-lib -I /applications/opam-5.3.0/5.3.0/lib/ppx_sexp_conv/runtime-lib -I /applications/opam-5.3.0/5.3.0/lib/sexplib0 -I /applications/opam-5.3.0/5.3.0/lib/time_now -I .tp2.objs/byte -I .tp2.objs/native -cmi-file .tp2.inline-tests/.t.eobjs/byte/dune__exe__Main.cmi -no-alias-deps -o .tp2.inline-tests/.t.eobjs/native/dune__exe__Main.cmx -c -impl .tp2.inline-tests/main.ml-gen)
+$ (cd _build/default && /applications/opam-5.3.0/5.3.0/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -warn-error -A -g -a -o tp2.cmxa .tp2.objs/native/tp2__.cmx .tp2.objs/native/tp2__Parser.cmx .tp2.objs/native/tp2__Lexer.cmx .tp2.objs/native/tp2.cmx)
+$ (cd _build/default && /applications/opam-5.3.0/5.3.0/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -warn-error -A -w -24 -g -g -o .tp2.inline-tests/inline-test-runner.exe /applications/opam-5.3.0/5.3.0/lib/ppx_inline_test/config/inline_test_config.cmxa /applications/opam-5.3.0/5.3.0/lib/base/base_internalhash_types/base_internalhash_types.cmxa -I /applications/opam-5.3.0/5.3.0/lib/base/base_internalhash_types /applications/opam-5.3.0/5.3.0/lib/sexplib0/sexplib0.cmxa /applications/opam-5.3.0/5.3.0/lib/base/shadow_stdlib/shadow_stdlib.cmxa /applications/opam-5.3.0/5.3.0/lib/ocaml_intrinsics_kernel/ocaml_intrinsics_kernel.cmxa -I /applications/opam-5.3.0/5.3.0/lib/ocaml_intrinsics_kernel /applications/opam-5.3.0/5.3.0/lib/base/base.cmxa -I /applications/opam-5.3.0/5.3.0/lib/base /applications/opam-5.3.0/5.3.0/lib/jane-street-headers/jane_street_headers.cmxa /applications/opam-5.3.0/5.3.0/lib/ppx_sexp_conv/runtime-lib/ppx_sexp_conv_lib.cmxa /applications/opam-5.3.0/5.3.0/lib/ppx_compare/runtime-lib/ppx_compare_lib.cmxa /applications/opam-5.3.0/5.3.0/lib/ppx_enumerate/runtime-lib/ppx_enumerate_lib.cmxa /applications/opam-5.3.0/5.3.0/lib/ppx_hash/runtime-lib/ppx_hash_lib.cmxa /applications/opam-5.3.0/5.3.0/lib/time_now/time_now.cmxa -I /applications/opam-5.3.0/5.3.0/lib/time_now /applications/opam-5.3.0/5.3.0/lib/ppx_inline_test/runtime-lib/ppx_inline_test_lib.cmxa tp2.cmxa /applications/opam-5.3.0/5.3.0/lib/ppx_inline_test/runner/lib/ppx_inline_test_runner_lib.cmxa -I /applications/opam-5.3.0/5.3.0/lib/ppx_inline_test/runner/lib .tp2.inline-tests/.t.eobjs/native/dune__exe__Main.cmx -linkall)
+$ (cd _build/default && .tp2.inline-tests/inline-test-runner.exe inline-test-runner tp2 -list-partitions) > _build/default/.tp2.inline-tests/partitions-best
+$ (cd _build/default && .tp2.inline-tests/inline-test-runner.exe inline-test-runner tp2 -partition tp2.ml -source-tree-root . -diff-cmd -)
+> File "tp2.ml", line 59, characters 0-45: <<(scinde [1; 2; 3; 4]) = ([1; 3], [2; 4])>> threw (Failure "TO DO").
+>   Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+>   Called from Tp2.scinde in file "tp2.ml" (inlined), line 55, characters 20-36
+>   Called from Tp2.(fun) in file "tp2.ml", line 59, characters 13-29
+>
+> File "tp2.ml", line 60, characters 0-41: <<(scinde [1; 2; 3]) = ([1; 3], [2])>> threw (Failure "TO DO").
+>   Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+>   Called from Tp2.scinde in file "tp2.ml" (inlined), line 55, characters 20-36
+>   Called from Tp2.(fun) in file "tp2.ml", line 60, characters 13-27
+>
+> File "tp2.ml", line 61, characters 0-34: <<(scinde [1]) = ([1], [])>> threw (Failure "TO DO").
+>   Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+>   Called from Tp2.scinde in file "tp2.ml" (inlined), line 55, characters 20-36
+>   Called from Tp2.(fun) in file "tp2.ml", line 61, characters 13-23
+>
+> File "tp2.ml", line 62, characters 0-32: <<(scinde []) = ([], [])>> threw (Failure "TO DO").
+>   Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+>   Called from Tp2.scinde in file "tp2.ml" (inlined), line 55, characters 20-36
+>   Called from Tp2.(fun) in file "tp2.ml", line 62, characters 13-22
+>
+> File "tp2.ml", line 74, characters 0-74: <<(fusionne (fun x y -> x < y) [1; 2; 4; 5; 6] [...]>> threw (Failure "TO DO").
+>   Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+>   Called from Tp2.fusionne in file "tp2.ml" (inlined), line 71, characters 31-47
+>   Called from Tp2.(fun) in file "tp2.ml", line 74, characters 13-56
+>
+> File "tp2.ml", line 75, characters 0-66: <<(fusionne (fun x y -> x < y) [1; 2; 4] [3; 4][...]>> threw (Failure "TO DO").
+>   Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+>   Called from Tp2.fusionne in file "tp2.ml" (inlined), line 71, characters 31-47
+>   Called from Tp2.(fun) in file "tp2.ml", line 75, characters 13-52
+>
+> File "tp2.ml", line 76, characters 0-80: <<(fusionne (fun x y -> x < y) [1; 2; 4] [3; 4;[...]>> threw (Failure "TO DO").
+>   Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+>   Called from Tp2.fusionne in file "tp2.ml" (inlined), line 71, characters 31-47
+>   Called from Tp2.(fun) in file "tp2.ml", line 76, characters 13-59
+>
+> File "tp2.ml", line 77, characters 0-49: <<(fusionne (fun x y -> x < y) [] []) = []>> threw (Failure "TO DO").
+>   Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+>   Called from Tp2.fusionne in file "tp2.ml" (inlined), line 71, characters 31-47
+>   Called from Tp2.(fun) in file "tp2.ml", line 77, characters 13-44
+>
+> File "tp2.ml", line 78, characters 0-51: <<(fusionne (fun x y -> x < y) [1] []) = [1]>> threw (Failure "TO DO").
+>   Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+>   Called from Tp2.fusionne in file "tp2.ml" (inlined), line 71, characters 31-47
+>   Called from Tp2.(fun) in file "tp2.ml", line 78, characters 13-45
+>
+> File "tp2.ml", line 79, characters 0-51: <<(fusionne (fun x y -> x < y) [] [1]) = [1]>> threw (Failure "TO DO").
+>   Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+>   Called from Tp2.fusionne in file "tp2.ml" (inlined), line 71, characters 31-47
+>   Called from Tp2.(fun) in file "tp2.ml", line 79, characters 13-45
+>
+> File "tp2.ml", line 80, characters 0-54: <<(fusionne (fun x y -> x < y) [1] [2]) = [1; 2]>> threw (Failure "TO DO").
+>   Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+>   Called from Tp2.fusionne in file "tp2.ml" (inlined), line 71, characters 31-47
+>   Called from Tp2.(fun) in file "tp2.ml", line 80, characters 13-46
+>
+> File "tp2.ml", line 81, characters 0-54: <<(fusionne (fun x y -> x > y) [1] [2]) = [2; 1]>> threw (Failure "TO DO").
+>   Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+>   Called from Tp2.fusionne in file "tp2.ml" (inlined), line 71, characters 31-47
+>   Called from Tp2.(fun) in file "tp2.ml", line 81, characters 13-46
+>
+> File "tp2.ml", line 96, characters 0-47: <<(tri_fusion (fun x y -> x < y) []) = []>> threw (Failure "TO DO").
+>   Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+>   Called from Tp2.tri_fusion in file "tp2.ml" (inlined), line 92, characters 28-44
+>   Called from Tp2.(fun) in file "tp2.ml", line 96, characters 13-43
+>
+> File "tp2.ml", line 97, characters 0-65: <<(tri_fusion (fun x y -> x < y) [4; 2; 4; 3; 1[...]>> threw (Failure "TO DO").
+>   Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+>   Called from Tp2.tri_fusion in file "tp2.ml" (inlined), line 92, characters 28-44
+>   Called from Tp2.(fun) in file "tp2.ml", line 97, characters 13-52
+>
+> File "tp2.ml", line 98, characters 0-78: <<(tri_fusion (fun x y -> x > y) [4; 7; 2; 4; 1[...]>> threw (Failure "TO DO").
+>   Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+>   Called from Tp2.tri_fusion in file "tp2.ml" (inlined), line 92, characters 28-44
+>   Called from Tp2.(fun) in file "tp2.ml", line 98, characters 13-60
+>
+> FAILED 15 / 21 tests
+[2]

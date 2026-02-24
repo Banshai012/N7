@@ -1,0 +1,96 @@
+--------------------------------------------------------------------------------
+Nom       : Krief
+Prénom    : Benjamin
+Groupe TP : H
+--------------------------------------------------------------------------------
+
+Consigne : Dans ce fichier, les « ... » indiquent les endroits à compléter.
+Il s'agit de remplacer les « ... » par votre texte.  Merci de laisser une
+ligne blanche avant.  Le texte déjà écrit doit être conservé !
+
+
+=====[ Temps passé ]============================================================
+
+Ces informations de temps sont demandées à titre indicatif et ne sont en
+aucun cas prises en compte dans la notation du projet.
+Il faut remplacer les ... par des nombres.
+
+* Temps passé sur la V1 : ... heures ... minutes
+* Temps passé sur la V2 : ... heures ... minutes
+
+Pour la V2 on ne tiendra pas compte du temps passé sur la V1.
+
+
+=====[ Tests ]==================================================================
+
+-- Expliquer en quelques phrases comment vous avez testé votre programme (et
+-- quels tests ont été réalisés).
+
+J'ai fait joué ma famille.
+
+
+=====[ Difficultés ]============================================================
+
+-- Indiquer les difficultés rencontrées et les solutions apportées.
+
+Difficulté : La non autorisation des fonctions
+Solution : BOUCLE
+
+
+=====[ Remarques diverses ]=====================================================
+
+Remarque : Cette rubrique peut être vide.
+
+...
+
+
+=====[ Questions ]==============================================================
+
+-- Dans cette partie, on ne demande pas de modifier le programme écrit.  On
+-- doit expliquer de manière précise et concise ce qu'il faudrait faire pour
+-- prendre en compte les évolutions demandées.
+
+Q1 : Quand on demande le niveau de jeu de l'ordinateur, on veut pouvoir
+répondre « distrait », « naïf », « rapide », etc.  On remarque que le premier
+caractère correspond bien à la lettre à taper pour le niveau considéré.
+Est-ce possible dans votre programme ?  Dans la négative, comment le modifier
+pour que ce soit possible ?
+
+Je n'ai pas compris la question
+
+
+Q2 : Quelles modifications faut-il apporter au programme pour avoir des
+allumettes représentées par 4 barres verticales (et non 3).
+
+Modifié la boucle de 3 par 4 sur l'affichage des allumettes
+
+
+Q3 : Quelles modifications faut-il apporter au programme pour afficher les
+allumettes groupées par 4 (et non par 5).
+
+Changer le modulo dans la boucle
+
+
+Q4 : Quand l'utilisateur choisit le niveau de jeu, on veut qu'il puisse aussi
+donner un chiffre (0 pour distrait, 1 pour naïf, 2 pour rapide et 3 pour
+expert).  Quelles modifications faut-il apporter au programme ?
+
+Il faut rajouter ces conditions dans le case
+
+
+Q5 : On veut ajouter un nouveau mode de jeu pour la machine. Par exemple, un
+mode « lent » où l'ordinateur prend toujours une seule allumette.  Quelles
+modifications faut-il apporter au programme ?
+
+Rajouter le mode dans case
+
+Et quand le robot doit jouer avec le mode lent, Number <- 1
+
+Q6 : On veut que l'utilisateur puisse abandonner la partie en donnant un
+nombre d'allumettes strictement négatif.  Quelles modifications faut-il faire
+sur le programme ?
+
+Changer le while Number > 0 par While Number > 0 or Number < 0
+
+
+--------------------------------------------------------------------------------

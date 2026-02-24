@@ -1,0 +1,8 @@
+void doubleRat (ref rat r) {
+  r = (r + r);
+}
+
+main {
+  rat x = [1/2];
+  doubleRat(ref x);
+}

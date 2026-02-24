@@ -1,0 +1,34 @@
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+Error: *********** TXD FAUX *************
+Time: 240 ns  Iteration: 1  Process: /test_envoi_octet_tp/line__176  File: /home/bkf0499/Annee 2/Archi/tp4/envoi_TP/test_envoi_octet_tp.vhd
+Error: *********** TXD FAUX *************
+Time: 280 ns  Iteration: 1  Process: /test_envoi_octet_tp/line__176  File: /home/bkf0499/Annee 2/Archi/tp4/envoi_TP/test_envoi_octet_tp.vhd
+Error: *********** TXD FAUX *************
+Time: 300 ns  Iteration: 1  Process: /test_envoi_octet_tp/line__176  File: /home/bkf0499/Annee 2/Archi/tp4/envoi_TP/test_envoi_octet_tp.vhd
+Error: *********** BUSY FAUX *************
+Time: 330 ns  Iteration: 1  Process: /test_envoi_octet_tp/line__176  File: /home/bkf0499/Annee 2/Archi/tp4/envoi_TP/test_envoi_octet_tp.vhd
+Error: *********** BUSY FAUX *************
+Time: 340 ns  Iteration: 1  Process: /test_envoi_octet_tp/line__176  File: /home/bkf0499/Annee 2/Archi/tp4/envoi_TP/test_envoi_octet_tp.vhd
+Error: *********** BUSY FAUX *************
+Time: 350 ns  Iteration: 1  Process: /test_envoi_octet_tp/line__176  File: /home/bkf0499/Annee 2/Archi/tp4/envoi_TP/test_envoi_octet_tp.vhd
+Error: *********** EN FAUX *************
+Time: 390 ns  Iteration: 1  Process: /test_envoi_octet_tp/line__176  File: /home/bkf0499/Annee 2/Archi/tp4/envoi_TP/test_envoi_octet_tp.vhd
+Error: *********** TXD FAUX *************
+Time: 400 ns  Iteration: 1  Process: /test_envoi_octet_tp/line__176  File: /home/bkf0499/Annee 2/Archi/tp4/envoi_TP/test_envoi_octet_tp.vhd
+Error: *********** BUSY FAUX *************
+Time: 400 ns  Iteration: 1  Process: /test_envoi_octet_tp/line__176  File: /home/bkf0499/Annee 2/Archi/tp4/envoi_TP/test_envoi_octet_tp.vhd
+Error: *********** TXD FAUX *************
+Time: 410 ns  Iteration: 1  Process: /test_envoi_octet_tp/line__176  File: /home/bkf0499/Annee 2/Archi/tp4/envoi_TP/test_envoi_octet_tp.vhd
+Error: *********** BUSY FAUX *************
+Time: 410 ns  Iteration: 1  Process: /test_envoi_octet_tp/line__176  File: /home/bkf0499/Annee 2/Archi/tp4/envoi_TP/test_envoi_octet_tp.vhd
+Error: *********** EN FAUX *************
+Time: 420 ns  Iteration: 1  Process: /test_envoi_octet_tp/line__176  File: /home/bkf0499/Annee 2/Archi/tp4/envoi_TP/test_envoi_octet_tp.vhd
+Error: *********** BUSY FAUX *************
+Time: 420 ns  Iteration: 1  Process: /test_envoi_octet_tp/line__176  File: /home/bkf0499/Annee 2/Archi/tp4/envoi_TP/test_envoi_octet_tp.vhd
+Error: *********** TXD FAUX *************
+Time: 470 ns  Iteration: 1  Process: /test_envoi_octet_tp/line__176  File: /home/bkf0499/Annee 2/Archi/tp4/envoi_TP/test_envoi_octet_tp.vhd
+Error: *********** TXD FAUX *************
+Time: 490 ns  Iteration: 1  Process: /test_envoi_octet_tp/line__176  File: /home/bkf0499/Annee 2/Archi/tp4/envoi_TP/test_envoi_octet_tp.vhd
+Error: *********** BUSY FAUX *************
+Time: 520 ns  Iteration: 1  Process: /test_envoi_octet_tp/line__176  File: /home/bkf0499/Annee 2/Archi/tp4/envoi_TP/test_envoi_octet_tp.vhd

@@ -1,0 +1,3 @@
+Ceci est un texte.
+C'est un test.
+C'est juste un exemple.

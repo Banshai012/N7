@@ -1,0 +1,12 @@
+
+Résultats aux QCM de début de TD PIM de Benjamin KRIEF :
+
+* QCM Modules : ABS
+* QCM Raffinages : ABS
+* QCM Sp : ABS
+* QCM Types : 11,5
+
+Moyenne : 3,83
+
+Remarque : La note la plus faible est ignorée, 0 pour ABS.
+

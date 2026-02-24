@@ -1,0 +1,9 @@
+[submodule "Annee 2/Projet_Donnee_Reparties"]
+	path = Annee 2/Projet_Donnee_Reparties
+	url = https://github.com/AchilleTheux/Projet_Donnee_Reparties.git
+[submodule "Annee 2/Projet_Systemes/N7OS"]
+	path = Annee 2/Projet_Systemes/N7OS
+	url = https://github.com/Banshai012/N7OS.git
+[submodule "Annee 2/Projet_Intergiciel/Projet_Donnee_Reparties"]
+	path = Annee 2/Projet_Intergiciel/Projet_Donnee_Reparties
+	url = https://github.com/AchilleTheux/Projet_Donnee_Reparties.git

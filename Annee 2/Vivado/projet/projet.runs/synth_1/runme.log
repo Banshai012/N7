@@ -1,0 +1,507 @@
+
+*** Running vivado
+    with args -log Nexys4Joystick.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Nexys4Joystick.tcl
+
+
+****** Vivado v2019.2 (64-bit)
+  **** SW Build 2708876 on Wed Nov  6 21:39:14 MST 2019
+  **** IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source Nexys4Joystick.tcl -notrace
+Command: synth_design -top Nexys4Joystick -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 992943 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 1827.559 ; gain = 202.719 ; free physical = 1186 ; free virtual = 9196
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Nexys4Joystick' [/home/bkf0499/Annee 2/Archi/fournitures/JOYSTICK/Nexys4Joystick.vhd:26]
+	Parameter facteur bound to: 100 - type: integer 
+INFO: [Synth 8-3491] module 'diviseurClk' declared at '/home/bkf0499/Annee 2/Archi/fournitures/JOYSTICK/diviseurClk.vhd:4' bound to instance 'D' of component 'diviseurClk' [/home/bkf0499/Annee 2/Archi/fournitures/JOYSTICK/Nexys4Joystick.vhd:105]
+INFO: [Synth 8-638] synthesizing module 'diviseurClk' [/home/bkf0499/Annee 2/Archi/fournitures/JOYSTICK/diviseurClk.vhd:15]
+	Parameter facteur bound to: 100 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'diviseurClk' (1#1) [/home/bkf0499/Annee 2/Archi/fournitures/JOYSTICK/diviseurClk.vhd:15]
+INFO: [Synth 8-3491] module 'MasterJoystick' declared at '/home/bkf0499/Annee 2/Archi/fournitures/JOYSTICK/MasterJoystick.vhd:6' bound to instance 'M' of component 'MasterJoystick' [/home/bkf0499/Annee 2/Archi/fournitures/JOYSTICK/Nexys4Joystick.vhd:117]
+INFO: [Synth 8-638] synthesizing module 'MasterJoystick' [/home/bkf0499/Annee 2/Archi/fournitures/JOYSTICK/MasterJoystick.vhd:23]
+INFO: [Synth 8-3491] module 'er_1octet' declared at '/home/bkf0499/Annee 2/Archi/fournitures/ER_1OCTET/er_1octet.vhd:4' bound to instance 'ER11' of component 'er_1octet' [/home/bkf0499/Annee 2/Archi/fournitures/JOYSTICK/MasterJoystick.vhd:46]
+INFO: [Synth 8-638] synthesizing module 'er_1octet' [/home/bkf0499/Annee 2/Archi/fournitures/ER_1OCTET/er_1octet.vhd:16]
+INFO: [Synth 8-256] done synthesizing module 'er_1octet' (2#1) [/home/bkf0499/Annee 2/Archi/fournitures/ER_1OCTET/er_1octet.vhd:16]
+WARNING: [Synth 8-6014] Unused sequential element reg_X2_reg was removed.  [/home/bkf0499/Annee 2/Archi/fournitures/JOYSTICK/MasterJoystick.vhd:133]
+WARNING: [Synth 8-6014] Unused sequential element reg_Y2_reg was removed.  [/home/bkf0499/Annee 2/Archi/fournitures/JOYSTICK/MasterJoystick.vhd:142]
+WARNING: [Synth 8-6014] Unused sequential element reg_BTN_reg was removed.  [/home/bkf0499/Annee 2/Archi/fournitures/JOYSTICK/MasterJoystick.vhd:147]
+INFO: [Synth 8-256] done synthesizing module 'MasterJoystick' (3#1) [/home/bkf0499/Annee 2/Archi/fournitures/JOYSTICK/MasterJoystick.vhd:23]
+INFO: [Synth 8-3491] module 'All7Segments' declared at '/home/bkf0499/Annee 2/Archi/fournitures/JOYSTICK/All7Segments.vhd:4' bound to instance 'A' of component 'All7Segments' [/home/bkf0499/Annee 2/Archi/fournitures/JOYSTICK/Nexys4Joystick.vhd:137]
+INFO: [Synth 8-638] synthesizing module 'All7Segments' [/home/bkf0499/Annee 2/Archi/fournitures/JOYSTICK/All7Segments.vhd:19]
+	Parameter facteur bound to: 100000 - type: integer 
+INFO: [Synth 8-3491] module 'diviseurClk' declared at '/home/bkf0499/Annee 2/Archi/fournitures/JOYSTICK/diviseurClk.vhd:4' bound to instance 'divClk' of component 'diviseurClk' [/home/bkf0499/Annee 2/Archi/fournitures/JOYSTICK/All7Segments.vhd:41]
+INFO: [Synth 8-638] synthesizing module 'diviseurClk__parameterized1' [/home/bkf0499/Annee 2/Archi/fournitures/JOYSTICK/diviseurClk.vhd:15]
+	Parameter facteur bound to: 100000 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'diviseurClk__parameterized1' (3#1) [/home/bkf0499/Annee 2/Archi/fournitures/JOYSTICK/diviseurClk.vhd:15]
+INFO: [Synth 8-3491] module 'dec7seg' declared at '/home/bkf0499/Annee 2/Archi/fournitures/JOYSTICK/dec7seg.vhd:6' bound to instance 'dec7seg0' of component 'dec7seg' [/home/bkf0499/Annee 2/Archi/fournitures/JOYSTICK/All7Segments.vhd:45]
+INFO: [Synth 8-638] synthesizing module 'dec7seg' [/home/bkf0499/Annee 2/Archi/fournitures/JOYSTICK/dec7seg.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'dec7seg' (4#1) [/home/bkf0499/Annee 2/Archi/fournitures/JOYSTICK/dec7seg.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'All7Segments' (5#1) [/home/bkf0499/Annee 2/Archi/fournitures/JOYSTICK/All7Segments.vhd:19]
+INFO: [Synth 8-256] done synthesizing module 'Nexys4Joystick' (6#1) [/home/bkf0499/Annee 2/Archi/fournitures/JOYSTICK/Nexys4Joystick.vhd:26]
+WARNING: [Synth 8-3917] design Nexys4Joystick has port led[9] driven by constant 0
+WARNING: [Synth 8-3917] design Nexys4Joystick has port led[8] driven by constant 0
+WARNING: [Synth 8-3917] design Nexys4Joystick has port led[7] driven by constant 0
+WARNING: [Synth 8-3917] design Nexys4Joystick has port led[6] driven by constant 0
+WARNING: [Synth 8-3917] design Nexys4Joystick has port led[5] driven by constant 0
+WARNING: [Synth 8-3917] design Nexys4Joystick has port led[4] driven by constant 0
+WARNING: [Synth 8-3917] design Nexys4Joystick has port led[3] driven by constant 0
+WARNING: [Synth 8-3917] design Nexys4Joystick has port led[2] driven by constant 0
+WARNING: [Synth 8-3917] design Nexys4Joystick has port led[1] driven by constant 0
+WARNING: [Synth 8-3917] design Nexys4Joystick has port led[0] driven by constant 0
+WARNING: [Synth 8-3331] design Nexys4Joystick has unconnected port sw[13]
+WARNING: [Synth 8-3331] design Nexys4Joystick has unconnected port sw[12]
+WARNING: [Synth 8-3331] design Nexys4Joystick has unconnected port sw[11]
+WARNING: [Synth 8-3331] design Nexys4Joystick has unconnected port sw[10]
+WARNING: [Synth 8-3331] design Nexys4Joystick has unconnected port sw[9]
+WARNING: [Synth 8-3331] design Nexys4Joystick has unconnected port sw[8]
+WARNING: [Synth 8-3331] design Nexys4Joystick has unconnected port sw[7]
+WARNING: [Synth 8-3331] design Nexys4Joystick has unconnected port sw[6]
+WARNING: [Synth 8-3331] design Nexys4Joystick has unconnected port sw[4]
+WARNING: [Synth 8-3331] design Nexys4Joystick has unconnected port sw[3]
+WARNING: [Synth 8-3331] design Nexys4Joystick has unconnected port sw[2]
+WARNING: [Synth 8-3331] design Nexys4Joystick has unconnected port sw[1]
+WARNING: [Synth 8-3331] design Nexys4Joystick has unconnected port btnC
+WARNING: [Synth 8-3331] design Nexys4Joystick has unconnected port btnU
+WARNING: [Synth 8-3331] design Nexys4Joystick has unconnected port btnL
+WARNING: [Synth 8-3331] design Nexys4Joystick has unconnected port btnR
+WARNING: [Synth 8-3331] design Nexys4Joystick has unconnected port btnD
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 1889.309 ; gain = 264.469 ; free physical = 1340 ; free virtual = 9350
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 1895.246 ; gain = 270.406 ; free physical = 1356 ; free virtual = 9367
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 1895.246 ; gain = 270.406 ; free physical = 1356 ; free virtual = 9367
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1895.246 ; gain = 0.000 ; free physical = 1349 ; free virtual = 9359
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/bkf0499/Annee 2/Archi/fournitures/JOYSTICK/Nexys4Joystick_DDR.xdc]
+Finished Parsing XDC File [/home/bkf0499/Annee 2/Archi/fournitures/JOYSTICK/Nexys4Joystick_DDR.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/bkf0499/Annee 2/Archi/fournitures/JOYSTICK/Nexys4Joystick_DDR.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Nexys4Joystick_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Nexys4Joystick_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [/home/bkf0499/Annee 2/Archi/fournitures/JOYSTICK/Nexys4Joystick.xdc]
+Finished Parsing XDC File [/home/bkf0499/Annee 2/Archi/fournitures/JOYSTICK/Nexys4Joystick.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/bkf0499/Annee 2/Archi/fournitures/JOYSTICK/Nexys4Joystick.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Nexys4Joystick_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Nexys4Joystick_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2029.012 ; gain = 0.000 ; free physical = 1242 ; free virtual = 9253
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2029.012 ; gain = 0.000 ; free physical = 1242 ; free virtual = 9253
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:14 . Memory (MB): peak = 2029.012 ; gain = 404.172 ; free physical = 1304 ; free virtual = 9314
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:14 . Memory (MB): peak = 2029.012 ; gain = 404.172 ; free physical = 1304 ; free virtual = 9314
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:10 ; elapsed = 00:00:14 . Memory (MB): peak = 2029.012 ; gain = 404.172 ; free physical = 1303 ; free virtual = 9313
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'etat_reg' in module 'er_1octet'
+INFO: [Synth 8-802] inferred FSM for state register 'etat_reg' in module 'MasterJoystick'
+INFO: [Synth 8-5545] ROM "etat" won't be mapped to RAM because address size (31) is larger than maximum supported(25)
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                   repos |                               00 |                               00
+               reception |                               01 |                               01
+                   envoi |                               10 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'etat_reg' using encoding 'sequential' in module 'er_1octet'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  warmup |                               00 |                               00
+                 attente |                               01 |                               10
+                 echange |                               10 |                               01
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'etat_reg' using encoding 'sequential' in module 'MasterJoystick'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:15 . Memory (MB): peak = 2029.012 ; gain = 404.172 ; free physical = 1287 ; free virtual = 9298
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     31 Bit       Adders := 4     
+	   2 Input     17 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 1     
++---Registers : 
+	               31 Bit    Registers := 4     
+	               17 Bit    Registers := 1     
+	               10 Bit    Registers := 2     
+	                8 Bit    Registers := 7     
+	                7 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 11    
++---Muxes : 
+	   3 Input     31 Bit        Muxes := 2     
+	   2 Input     31 Bit        Muxes := 2     
+	   2 Input     17 Bit        Muxes := 1     
+	   3 Input      8 Bit        Muxes := 2     
+	   2 Input      8 Bit        Muxes := 1     
+	   8 Input      8 Bit        Muxes := 1     
+	   3 Input      2 Bit        Muxes := 2     
+	   2 Input      2 Bit        Muxes := 1     
+	   5 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 8     
+	   3 Input      1 Bit        Muxes := 24    
+	   5 Input      1 Bit        Muxes := 5     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module diviseurClk 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      7 Bit       Adders := 1     
++---Registers : 
+	                7 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module er_1octet 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     31 Bit       Adders := 1     
++---Registers : 
+	               31 Bit    Registers := 1     
+	                8 Bit    Registers := 2     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   3 Input     31 Bit        Muxes := 1     
+	   3 Input      8 Bit        Muxes := 2     
+	   3 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 9     
+Module MasterJoystick 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     31 Bit       Adders := 3     
++---Registers : 
+	               31 Bit    Registers := 2     
+	               10 Bit    Registers := 2     
+	                8 Bit    Registers := 4     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input     31 Bit        Muxes := 2     
+	   3 Input     31 Bit        Muxes := 1     
+	   3 Input      2 Bit        Muxes := 1     
+	   5 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 7     
+	   5 Input      1 Bit        Muxes := 5     
+	   3 Input      1 Bit        Muxes := 15    
+Module diviseurClk__parameterized1 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     17 Bit       Adders := 1     
++---Registers : 
+	               17 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     17 Bit        Muxes := 1     
+Module All7Segments 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      5 Bit       Adders := 1     
++---Registers : 
+	               31 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+	   8 Input      8 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-3917] design Nexys4Joystick has port led[9] driven by constant 0
+WARNING: [Synth 8-3917] design Nexys4Joystick has port led[8] driven by constant 0
+WARNING: [Synth 8-3917] design Nexys4Joystick has port led[7] driven by constant 0
+WARNING: [Synth 8-3917] design Nexys4Joystick has port led[6] driven by constant 0
+WARNING: [Synth 8-3917] design Nexys4Joystick has port led[5] driven by constant 0
+WARNING: [Synth 8-3917] design Nexys4Joystick has port led[4] driven by constant 0
+WARNING: [Synth 8-3917] design Nexys4Joystick has port led[3] driven by constant 0
+WARNING: [Synth 8-3917] design Nexys4Joystick has port led[2] driven by constant 0
+WARNING: [Synth 8-3917] design Nexys4Joystick has port led[1] driven by constant 0
+WARNING: [Synth 8-3917] design Nexys4Joystick has port led[0] driven by constant 0
+WARNING: [Synth 8-3917] design Nexys4Joystick has port seg[7] driven by constant 1
+WARNING: [Synth 8-3331] design Nexys4Joystick has unconnected port sw[13]
+WARNING: [Synth 8-3331] design Nexys4Joystick has unconnected port sw[12]
+WARNING: [Synth 8-3331] design Nexys4Joystick has unconnected port sw[11]
+WARNING: [Synth 8-3331] design Nexys4Joystick has unconnected port sw[10]
+WARNING: [Synth 8-3331] design Nexys4Joystick has unconnected port sw[9]
+WARNING: [Synth 8-3331] design Nexys4Joystick has unconnected port sw[8]
+WARNING: [Synth 8-3331] design Nexys4Joystick has unconnected port sw[7]
+WARNING: [Synth 8-3331] design Nexys4Joystick has unconnected port sw[6]
+WARNING: [Synth 8-3331] design Nexys4Joystick has unconnected port sw[4]
+WARNING: [Synth 8-3331] design Nexys4Joystick has unconnected port sw[3]
+WARNING: [Synth 8-3331] design Nexys4Joystick has unconnected port sw[2]
+WARNING: [Synth 8-3331] design Nexys4Joystick has unconnected port sw[1]
+WARNING: [Synth 8-3331] design Nexys4Joystick has unconnected port btnC
+WARNING: [Synth 8-3331] design Nexys4Joystick has unconnected port btnU
+WARNING: [Synth 8-3331] design Nexys4Joystick has unconnected port btnL
+WARNING: [Synth 8-3331] design Nexys4Joystick has unconnected port btnR
+WARNING: [Synth 8-3331] design Nexys4Joystick has unconnected port btnD
+INFO: [Synth 8-3886] merging instance 'M/reg_v1_reg[6]' (FDE) to 'M/reg_v1_reg[2]'
+INFO: [Synth 8-3886] merging instance 'M/reg_v1_reg[5]' (FDE) to 'M/reg_v1_reg[2]'
+INFO: [Synth 8-3886] merging instance 'M/reg_v1_reg[4]' (FDE) to 'M/reg_v1_reg[2]'
+INFO: [Synth 8-3886] merging instance 'M/reg_v1_reg[3]' (FDE) to 'M/reg_v1_reg[2]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\M/reg_v1_reg[2] )
+INFO: [Synth 8-3886] merging instance 'M/din_er_reg[6]' (FDE) to 'M/din_er_reg[2]'
+INFO: [Synth 8-3886] merging instance 'M/din_er_reg[5]' (FDE) to 'M/din_er_reg[2]'
+INFO: [Synth 8-3886] merging instance 'M/din_er_reg[4]' (FDE) to 'M/din_er_reg[2]'
+INFO: [Synth 8-3886] merging instance 'M/din_er_reg[3]' (FDE) to 'M/din_er_reg[2]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\M/reg_v1_reg[7] )
+INFO: [Synth 8-3886] merging instance 'M/numero_reg[30]' (FDCE) to 'M/numero_reg[29]'
+INFO: [Synth 8-3886] merging instance 'M/numero_reg[29]' (FDCE) to 'M/numero_reg[28]'
+INFO: [Synth 8-3886] merging instance 'M/numero_reg[28]' (FDCE) to 'M/numero_reg[27]'
+INFO: [Synth 8-3886] merging instance 'M/numero_reg[27]' (FDCE) to 'M/numero_reg[26]'
+INFO: [Synth 8-3886] merging instance 'M/numero_reg[26]' (FDCE) to 'M/numero_reg[25]'
+INFO: [Synth 8-3886] merging instance 'M/numero_reg[25]' (FDCE) to 'M/numero_reg[24]'
+INFO: [Synth 8-3886] merging instance 'M/numero_reg[24]' (FDCE) to 'M/numero_reg[23]'
+INFO: [Synth 8-3886] merging instance 'M/numero_reg[23]' (FDCE) to 'M/numero_reg[22]'
+INFO: [Synth 8-3886] merging instance 'M/numero_reg[22]' (FDCE) to 'M/numero_reg[21]'
+INFO: [Synth 8-3886] merging instance 'M/numero_reg[21]' (FDCE) to 'M/numero_reg[20]'
+INFO: [Synth 8-3886] merging instance 'M/numero_reg[20]' (FDCE) to 'M/numero_reg[19]'
+INFO: [Synth 8-3886] merging instance 'M/numero_reg[19]' (FDCE) to 'M/numero_reg[18]'
+INFO: [Synth 8-3886] merging instance 'M/numero_reg[18]' (FDCE) to 'M/numero_reg[17]'
+INFO: [Synth 8-3886] merging instance 'M/numero_reg[17]' (FDCE) to 'M/numero_reg[16]'
+INFO: [Synth 8-3886] merging instance 'M/numero_reg[16]' (FDCE) to 'M/numero_reg[15]'
+INFO: [Synth 8-3886] merging instance 'M/numero_reg[15]' (FDCE) to 'M/numero_reg[14]'
+INFO: [Synth 8-3886] merging instance 'M/numero_reg[14]' (FDCE) to 'M/numero_reg[13]'
+INFO: [Synth 8-3886] merging instance 'M/numero_reg[13]' (FDCE) to 'M/numero_reg[12]'
+INFO: [Synth 8-3886] merging instance 'M/numero_reg[12]' (FDCE) to 'M/numero_reg[11]'
+INFO: [Synth 8-3886] merging instance 'M/numero_reg[11]' (FDCE) to 'M/numero_reg[10]'
+INFO: [Synth 8-3886] merging instance 'M/numero_reg[10]' (FDCE) to 'M/numero_reg[9]'
+INFO: [Synth 8-3886] merging instance 'M/numero_reg[9]' (FDCE) to 'M/numero_reg[8]'
+INFO: [Synth 8-3886] merging instance 'M/numero_reg[8]' (FDCE) to 'M/numero_reg[7]'
+INFO: [Synth 8-3886] merging instance 'M/numero_reg[7]' (FDCE) to 'M/numero_reg[6]'
+INFO: [Synth 8-3886] merging instance 'M/numero_reg[6]' (FDCE) to 'M/numero_reg[5]'
+INFO: [Synth 8-3886] merging instance 'M/numero_reg[5]' (FDCE) to 'M/numero_reg[4]'
+INFO: [Synth 8-3886] merging instance 'M/numero_reg[4]' (FDCE) to 'M/numero_reg[3]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\M/numero_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\M/din_er_reg[2] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\M/din_er_reg[7] )
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:26 . Memory (MB): peak = 2033.012 ; gain = 408.172 ; free physical = 1145 ; free virtual = 9159
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:26 ; elapsed = 00:00:34 . Memory (MB): peak = 2033.012 ; gain = 408.172 ; free physical = 1104 ; free virtual = 9118
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:26 ; elapsed = 00:00:34 . Memory (MB): peak = 2043.027 ; gain = 418.188 ; free physical = 1073 ; free virtual = 9087
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:26 ; elapsed = 00:00:34 . Memory (MB): peak = 2051.035 ; gain = 426.195 ; free physical = 1083 ; free virtual = 9097
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:29 ; elapsed = 00:00:37 . Memory (MB): peak = 2051.035 ; gain = 426.195 ; free physical = 1107 ; free virtual = 9121
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:29 ; elapsed = 00:00:37 . Memory (MB): peak = 2051.035 ; gain = 426.195 ; free physical = 1107 ; free virtual = 9121
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:29 ; elapsed = 00:00:37 . Memory (MB): peak = 2051.035 ; gain = 426.195 ; free physical = 1107 ; free virtual = 9121
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:29 ; elapsed = 00:00:37 . Memory (MB): peak = 2051.035 ; gain = 426.195 ; free physical = 1107 ; free virtual = 9121
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:29 ; elapsed = 00:00:37 . Memory (MB): peak = 2051.035 ; gain = 426.195 ; free physical = 1107 ; free virtual = 9121
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:29 ; elapsed = 00:00:37 . Memory (MB): peak = 2051.035 ; gain = 426.195 ; free physical = 1107 ; free virtual = 9121
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     2|
+|2     |CARRY4 |    54|
+|3     |LUT1   |    54|
+|4     |LUT2   |   134|
+|5     |LUT3   |    71|
+|6     |LUT4   |    86|
+|7     |LUT5   |    44|
+|8     |LUT6   |    44|
+|9     |MUXF7  |     2|
+|10    |FDCE   |   132|
+|11    |FDPE   |    10|
+|12    |FDRE   |    64|
+|13    |IBUF   |     6|
+|14    |OBUF   |    35|
++------+-------+------+
+
+Report Instance Areas: 
++------+-------------+----------------------------+------+
+|      |Instance     |Module                      |Cells |
++------+-------------+----------------------------+------+
+|1     |top          |                            |   738|
+|2     |  A          |All7Segments                |    81|
+|3     |    dec7seg0 |dec7seg                     |     7|
+|4     |    divClk   |diviseurClk__parameterized1 |    48|
+|5     |  D          |diviseurClk                 |    17|
+|6     |  M          |MasterJoystick              |   597|
+|7     |    ER11     |er_1octet                   |   182|
++------+-------------+----------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:29 ; elapsed = 00:00:37 . Memory (MB): peak = 2051.035 ; gain = 426.195 ; free physical = 1107 ; free virtual = 9121
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 28 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:28 ; elapsed = 00:00:34 . Memory (MB): peak = 2051.035 ; gain = 292.430 ; free physical = 1148 ; free virtual = 9163
+Synthesis Optimization Complete : Time (s): cpu = 00:00:29 ; elapsed = 00:00:37 . Memory (MB): peak = 2051.043 ; gain = 426.195 ; free physical = 1148 ; free virtual = 9163
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2054.004 ; gain = 0.000 ; free physical = 1172 ; free virtual = 9186
+INFO: [Netlist 29-17] Analyzing 56 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2054.004 ; gain = 0.000 ; free physical = 1166 ; free virtual = 9180
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+78 Infos, 58 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:36 ; elapsed = 00:00:53 . Memory (MB): peak = 2054.004 ; gain = 607.449 ; free physical = 1296 ; free virtual = 9310
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2054.004 ; gain = 0.000 ; free physical = 1296 ; free virtual = 9310
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint '/home/bkf0499/Annee 2/Vivado/projet/projet.runs/synth_1/Nexys4Joystick.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Nexys4Joystick_utilization_synth.rpt -pb Nexys4Joystick_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Nov 20 13:16:34 2025...

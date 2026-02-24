@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/bkf0499/Annee 2/Archi/tp3/diviseurClk/diviseurClk.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'diviseurClk'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/bkf0499/Annee 2/Archi/tp3/diviseurClk/diviseurClk_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'diviseurClk_tb'

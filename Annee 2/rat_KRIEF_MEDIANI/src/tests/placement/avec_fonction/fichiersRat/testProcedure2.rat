@@ -1,0 +1,8 @@
+void maProcedure (int a, int b) {
+  int local = (a+b);
+  print local;
+}
+
+main {
+  maProcedure(1, 2);
+}

@@ -1,0 +1,17 @@
+-------------------- Auto-Git Log --------------------
+Thu Dec 12 2024 21:19:41 GMT+0100 (heure normale d’Europe centrale)
+------------------------------------------------------
+
+Modified files:
+* compresser copy.adb
+* lca + arbre.adb
+* lca + arbre.ads
+
+
+Created files:
+
+
+Deleted files:
+
+
+Renamed files:

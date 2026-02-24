@@ -1,0 +1,15 @@
+-------------------- Auto-Git Log --------------------
+Wed Jan 22 2025 15:10:15 GMT+0100 (heure normale d’Europe centrale)
+------------------------------------------------------
+
+Modified files:
+* mini-projet/src/Cercle.java
+
+
+Created files:
+
+
+Deleted files:
+
+
+Renamed files:

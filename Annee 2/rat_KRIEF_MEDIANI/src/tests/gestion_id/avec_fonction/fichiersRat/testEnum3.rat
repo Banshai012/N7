@@ -1,0 +1,9 @@
+enum Status { OK, KO };
+
+void checkStatus (Status s) {
+  if (s = OK) { print 1; } else { print 0; }
+}
+
+main {
+  checkStatus(KO);
+}

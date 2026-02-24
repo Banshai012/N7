@@ -1,0 +1,18 @@
+-------------------- Auto-Git Log --------------------
+Thu Jan 23 2025 10:26:23 GMT+0100 (heure normale d’Europe centrale)
+------------------------------------------------------
+
+Modified files:
+* mini-projet/LISEZ-MOI.txt
+* mini-projet/src/.DS_Store
+* mini-projet/src/Cercle.java
+* mini-projet/src/CercleTest.java
+
+
+Created files:
+
+
+Deleted files:
+
+
+Renamed files:

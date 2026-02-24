@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../../Archi/tp4/envoi_TP/envoi_octet_tp.vhd" \
+"../../../../../../Archi/tp4/envoi_TP/test_envoi_octet_tp.vhd" \
+
+# Do not sort compile order
+nosort

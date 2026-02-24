@@ -1,0 +1,96 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (lin64) Build 2708876 Wed Nov  6 21:39:14 MST 2019
+| Date         : Thu Nov 20 13:17:35 2025
+| Host         : stallman.enseeiht.fr running 64-bit Ubuntu 24.04.3 LTS
+| Command      : report_control_sets -verbose -file Nexys4Joystick_control_sets_placed.rpt
+| Design       : Nexys4Joystick
+| Device       : xc7a100t
+-------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    18 |
+|    Minimum number of control sets                        |    18 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |    74 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    18 |
+| >= 0 to < 4        |     5 |
+| >= 4 to < 6        |     1 |
+| >= 6 to < 8        |     0 |
+| >= 8 to < 10       |     4 |
+| >= 10 to < 12      |     4 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     0 |
+| >= 16              |     4 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              10 |            4 |
+| No           | No                    | Yes                    |              46 |           16 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |              54 |           17 |
+| Yes          | No                    | Yes                    |              96 |           27 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++-----------------+-------------------------------------+------------------+------------------+----------------+
+|   Clock Signal  |            Enable Signal            | Set/Reset Signal | Slice Load Count | Bel Load Count |
++-----------------+-------------------------------------+------------------+------------------+----------------+
+|  clk_BUFG       | M/ER11/mosi_i_1_n_0                 |                  |                1 |              1 |
+|  clk_BUFG       | M/ER11/sclk_i_1_n_0                 | M/ER11/sw[0]     |                1 |              1 |
+|  clk_BUFG       | M/reg_v10                           |                  |                1 |              2 |
+|  clk_BUFG       | M/ER11/FSM_sequential_etat_reg[0]_1 | M/ER11/sw[0]     |                2 |              2 |
+|  clk_BUFG       | M/ER11/numero_reg[1]                |                  |                2 |              3 |
+|  A/divClk/CLK   | led_OBUF[10]                        |                  |                3 |              4 |
+|  clk_BUFG       | M/ER11/numero_reg[2][0]             |                  |                2 |              8 |
+|  clk_BUFG       | M/ER11/numero_reg[2]_0[0]           |                  |                1 |              8 |
+|  clk_BUFG       | M/ER11/dout[7]_i_1_n_0              |                  |                3 |              8 |
+|  clk_BUFG       |                                     | M/ER11/sw[0]     |                4 |              9 |
+|  clk_BUFG       |                                     |                  |                4 |             10 |
+|  clk_BUFG       | M/ER11/numero_reg[0]_0[0]           |                  |                2 |             10 |
+|  clk_BUFG       | M/ER11/numero_reg[0][0]             |                  |                2 |             10 |
+|  A/divClk/CLK   |                                     | M/ER11/sw[0]     |                3 |             11 |
+|  mclk_IBUF_BUFG |                                     | M/ER11/sw[0]     |                9 |             26 |
+|  clk_BUFG       | M/ER11/cpt_0                        | M/ER11/sw[0]     |                7 |             31 |
+|  clk_BUFG       | M/ER11/numero_reg[2]_1[0]           | M/ER11/sw[0]     |                8 |             31 |
+|  clk_BUFG       | M/din_er                            | M/ER11/sw[0]     |                9 |             31 |
++-----------------+-------------------------------------+------------------+------------------+----------------+
+
+

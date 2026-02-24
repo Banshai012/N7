@@ -1,0 +1,18 @@
+-------------------- Auto-Git Log --------------------
+Wed Jan 22 2025 15:50:42 GMT+0100 (heure normale d’Europe centrale)
+------------------------------------------------------
+
+Modified files:
+
+
+Created files:
+* .DS_Store
+* .autogit/logs/log-22-0-2025-15-30-28.txt
+* mini-projet/.DS_Store
+* mini-projet/src/.DS_Store
+
+
+Deleted files:
+
+
+Renamed files:

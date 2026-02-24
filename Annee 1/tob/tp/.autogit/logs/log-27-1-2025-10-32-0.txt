@@ -1,0 +1,15 @@
+-------------------- Auto-Git Log --------------------
+Thu Feb 27 2025 10:32:00 GMT+0100 (heure normale d’Europe centrale)
+------------------------------------------------------
+
+Modified files:
+* projet-court/src/allumettes/Joueur.java
+
+
+Created files:
+
+
+Deleted files:
+
+
+Renamed files:
