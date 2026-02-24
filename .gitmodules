@@ -7,3 +7,21 @@
 [submodule "Annee 2/Projet_Intergiciel/Projet_Donnee_Reparties"]
 	path = Annee 2/Projet_Intergiciel/Projet_Donnee_Reparties
 	url = https://github.com/AchilleTheux/Projet_Donnee_Reparties.git
+[submodule "Annee 1/c/projet-c-sem5-etu"]
+	path = Annee 1/c/projet-c-sem5-etu
+	url = https://github.com/Banshai012/projet-c-sem5-etu.git
+[submodule "Annee 1/tob/projet-long"]
+	path = Annee 1/tob/projet-long
+	url = https://github.com/hocinemediani/Simples-Adventures.git
+[submodule "Annee 2/Compilateur-RAT"]
+	path = Annee 2/Compilateur-RAT
+	url = https://github.com/hocinemediani/Compilateur-RAT.git
+[submodule "Annee 2/Projet_Telecoms"]
+	path = Annee 2/Projet_Telecoms
+	url = https://github.com/ik389/Projet_Telecoms.git
+[submodule "Annee 2/Projet_Architecture"]
+	path = Annee 2/Projet_Architecture
+	url = https://github.com/ik389/Projet_Architecture.git
+[submodule "Annee 2/Interconnexion"]
+	path = Annee 2/Interconnexion
+	url = https://github.com/hocinemediani/Interconnexion.git
