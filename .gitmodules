@@ -25,3 +25,6 @@
 [submodule "Annee 2/Interconnexion"]
 	path = Annee 2/Interconnexion
 	url = https://github.com/hocinemediani/Interconnexion.git
+[submodule "Annee 2/OpenMP"]
+	path = Annee 2/OpenMP
+	url = https://github.com/Banshai012/OpenMP.git
