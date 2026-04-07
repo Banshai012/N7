@@ -1,0 +1,15 @@
+
+
+Résultats aux QCM de début de TD TOB de BENJAMIN KRIEF :
+
+* QCM classes   : 11,5  (min 01,5 ; moyenne 13,5 ; max 20,0)
+* QCM exception : ABS   (min 00,0 ; moyenne 09,0 ; max 20,0)
+* QCM heritage  : ABS   (min 00,0 ; moyenne 09,0 ; max 20,0)
+* QCM interface : 09,0  (min 01,0 ; moyenne 12,9 ; max 20,0)
+
+Moyenne : 06,8  (min 00,8 ; moyenne 11,6 ; max 19,2)
+
+La note la plus faible est ignorée.
+Un « ABS » est compté 0.
+Entre parenthèses, les statiques sur la promo pour cette note.
+

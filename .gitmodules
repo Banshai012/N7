@@ -28,3 +28,6 @@
 [submodule "Annee 2/OpenMP"]
 	path = Annee 2/OpenMP
 	url = https://github.com/Banshai012/OpenMP.git
+[submodule "Annee 2/TimeScrimble"]
+	path = Annee 2/TimeScrimble
+	url = https://github.com/hocinemediani/TimeScrimble.git
