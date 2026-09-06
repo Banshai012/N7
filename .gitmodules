@@ -15,7 +15,7 @@
 	url = https://github.com/hocinemediani/Simples-Adventures.git
 [submodule "Annee 2/Compilateur-RAT"]
 	path = Annee 2/Compilateur-RAT
-	url = https://github.com/hocinemediani/Compilateur-RAT.git
+	url = https://github.com/hocinemediani/RAT-Compiler.git
 [submodule "Annee 2/Projet_Telecoms"]
 	path = Annee 2/Projet_Telecoms
 	url = https://github.com/ik389/Projet_Telecoms.git
