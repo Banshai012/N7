@@ -10,8 +10,8 @@
 [submodule "Annee 1/c/projet-c-sem5-etu"]
 	path = Annee 1/c/projet-c-sem5-etu
 	url = https://github.com/Banshai012/projet-c-sem5-etu.git
-[submodule "Annee 1/tob/projet-long"]
-	path = Annee 1/tob/projet-long
+[submodule "Annee 1/Simples-Adventures"]
+	path = Annee 1/Simples-Adventures
 	url = https://github.com/hocinemediani/Simples-Adventures.git
 [submodule "Annee 2/Compilateur-RAT"]
 	path = Annee 2/Compilateur-RAT
