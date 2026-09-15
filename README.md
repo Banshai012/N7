@@ -15,6 +15,7 @@ git clone --recurse-submodules https://github.com/Banshai012/N7.git
 | `c/langage-c-sem5-complet/` | Exercices et notebooks du cours de langage C |
 | `c/projet-c-sem5-etu/` *(submodule — [mon dépôt](https://github.com/Banshai012/projet-c-sem5-etu))* | Projet de C : rendu interactif de la fractale de Mandelbrot en SDL2, multi-threadé (pool de tâches) |
 | `pim/tp/` | TP de Programmation Impérative en Ada |
+| `Compresseur_Texte_Huffman/` | Projet PIM : compression/décompression de texte par codage de Huffman en Ada |
 | `tob/tp/` | TP de Théorie des Objets (Java) |
 | `Simples-Adventures/` *(submodule, projet de groupe — dépôt de [hocinemediani](https://github.com/hocinemediani/Simples-Adventures))* | Jeu d'aventure en Java |
 | `Arduino/` | TP Arduino (dont la bibliothèque DecaDuino pour l'ultra-large bande) |
